@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54E2FE0F1DD18B8E003EBEDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E2FE0E1DD18B8E003EBEDE /* AppDelegate.swift */; };
+		54E2FE141DD18B8E003EBEDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54E2FE121DD18B8E003EBEDE /* Main.storyboard */; };
+		54E2FE161DD18B8E003EBEDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54E2FE151DD18B8E003EBEDE /* Assets.xcassets */; };
+		54E2FE191DD18B8E003EBEDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54E2FE171DD18B8E003EBEDE /* LaunchScreen.storyboard */; };
+		54E2FE211DD286B0003EBEDE /* MainInterfaceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E2FE201DD286B0003EBEDE /* MainInterfaceVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		54E2FE0B1DD18B8E003EBEDE /* Bunco Night.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bunco Night.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54E2FE0E1DD18B8E003EBEDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54E2FE131DD18B8E003EBEDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54E2FE151DD18B8E003EBEDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54E2FE181DD18B8E003EBEDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54E2FE1A1DD18B8E003EBEDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54E2FE201DD286B0003EBEDE /* MainInterfaceVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainInterfaceVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54E2FE081DD18B8E003EBEDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54E2FE021DD18B8E003EBEDE = {
+			isa = PBXGroup;
+			children = (
+				54E2FE201DD286B0003EBEDE /* MainInterfaceVC.swift */,
+				54E2FE0D1DD18B8E003EBEDE /* Bunco Night */,
+				54E2FE0C1DD18B8E003EBEDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54E2FE0C1DD18B8E003EBEDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54E2FE0B1DD18B8E003EBEDE /* Bunco Night.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54E2FE0D1DD18B8E003EBEDE /* Bunco Night */ = {
+			isa = PBXGroup;
+			children = (
+				54E2FE0E1DD18B8E003EBEDE /* AppDelegate.swift */,
+				54E2FE121DD18B8E003EBEDE /* Main.storyboard */,
+				54E2FE151DD18B8E003EBEDE /* Assets.xcassets */,
+				54E2FE171DD18B8E003EBEDE /* LaunchScreen.storyboard */,
+				54E2FE1A1DD18B8E003EBEDE /* Info.plist */,
+			);
+			path = "Bunco Night";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54E2FE0A1DD18B8E003EBEDE /* Bunco Night */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54E2FE1D1DD18B8E003EBEDE /* Build configuration list for PBXNativeTarget "Bunco Night" */;
+			buildPhases = (
+				54E2FE071DD18B8E003EBEDE /* Sources */,
+				54E2FE081DD18B8E003EBEDE /* Frameworks */,
+				54E2FE091DD18B8E003EBEDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bunco Night";
+			productName = "Bunco Night";
+			productReference = 54E2FE0B1DD18B8E003EBEDE /* Bunco Night.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54E2FE031DD18B8E003EBEDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Youcef;
+				TargetAttributes = {
+					54E2FE0A1DD18B8E003EBEDE = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 35BSF5Q65S;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 54E2FE061DD18B8E003EBEDE /* Build configuration list for PBXProject "Bunco Night" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54E2FE021DD18B8E003EBEDE;
+			productRefGroup = 54E2FE0C1DD18B8E003EBEDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54E2FE0A1DD18B8E003EBEDE /* Bunco Night */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54E2FE091DD18B8E003EBEDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54E2FE191DD18B8E003EBEDE /* LaunchScreen.storyboard in Resources */,
+				54E2FE161DD18B8E003EBEDE /* Assets.xcassets in Resources */,
+				54E2FE141DD18B8E003EBEDE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54E2FE071DD18B8E003EBEDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54E2FE0F1DD18B8E003EBEDE /* AppDelegate.swift in Sources */,
+				54E2FE211DD286B0003EBEDE /* MainInterfaceVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		54E2FE121DD18B8E003EBEDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54E2FE131DD18B8E003EBEDE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54E2FE171DD18B8E003EBEDE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54E2FE181DD18B8E003EBEDE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54E2FE1B1DD18B8E003EBEDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54E2FE1C1DD18B8E003EBEDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54E2FE1E1DD18B8E003EBEDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 35BSF5Q65S;
+				INFOPLIST_FILE = "Bunco Night/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----------------com.sunnydaysolution.Bunco-Night";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		54E2FE1F1DD18B8E003EBEDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 35BSF5Q65S;
+				INFOPLIST_FILE = "Bunco Night/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----------------com.sunnydaysolution.Bunco-Night";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54E2FE061DD18B8E003EBEDE /* Build configuration list for PBXProject "Bunco Night" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54E2FE1B1DD18B8E003EBEDE /* Debug */,
+				54E2FE1C1DD18B8E003EBEDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54E2FE1D1DD18B8E003EBEDE /* Build configuration list for PBXNativeTarget "Bunco Night" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54E2FE1E1DD18B8E003EBEDE /* Debug */,
+				54E2FE1F1DD18B8E003EBEDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54E2FE031DD18B8E003EBEDE /* Project object */;
+}
